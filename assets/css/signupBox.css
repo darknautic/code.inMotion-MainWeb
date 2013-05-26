@@ -1,0 +1,187 @@
+	body {	font: 62.5% "Trebuchet MS", sans-serif;
+		margin: 0;
+
+		}
+
+	
+		
+	 .brand {
+		display: block;
+		float: left;
+		padding: 10px 20px 10px;
+		margin-left: 0px;
+		font-size: 25px;
+		font-weight: 200;
+		color: #ffffff;  
+		text-shadow: 0 1px 0 #5A5A5A;
+		text-decoration: none;
+		}
+
+	.brand:hover {
+		text-decoration: none;
+		}
+
+	.brand:hover,.navbar-inverse .nav > li > a:hover {
+		color: #000000;
+		}
+
+	.brand {
+		color: 	#1A1A1A;
+	}
+	
+	
+
+
+
+.span2 {
+  width: 97%;
+   padding: 5px;  
+    font-size: 15px;  
+    text-shadow: 0px 1px 0px #fff;  
+    outline: none;  
+    background: -webkit-gradient(linear, left top, left bottombottom, from(#EBEBF0), to(#ffffff));  
+    background: -moz-linear-gradient(top,  #EBEBF0,  #ffffff);  
+    background: linear-gradient(#EBEBF0, #ffffff);  
+    -webkit-border-radius: 3px;  
+    -moz-border-radius: 3px;  
+    -o-border-radius: 3px; 
+    border-radius: 3px;  
+    border: 1px solid #717171;  
+}
+
+
+	
+#familyImage {
+background-image: url('css/images/theFamiliy.png');
+position:absolute;
+width:10%;
+height:20%;
+left : 89%;
+bottom: 0%;
+background-repeat:no-repeat;
+	}
+	
+#signupBox{
+/*	border: solid;
+	border-color: #131314;
+	border-color: #0169c9;*/
+	
+	position:absolute;
+	width:40%;
+	height: 50%;
+	left : 30%;
+	/*bottom: 15%;*/
+	top:20%;
+	padding: 2% 2%;
+			
+	/*background-color: #131314;*/
+	/*box-shadow: 4px 4px 10px #0169c9;*/
+	/*box-shadow: 4px 4px 10px #A1A7AD;*/
+	box-shadow: 4px 4px 10px #B8BBBE;
+	/*
+	position: absolute;
+	height: 450px;
+	left:370px;	
+	top:100px;
+	width: 600px;
+	padding:10px 10px;
+	margin:0px; 
+	*/
+
+	
+	/*border:5px solid gray;		*/
+	
+
+	}
+	
+
+#signupBox2 {
+	/*border: dashed;
+	border-color: #001111;*/
+	
+	position:absolute;
+	width:60%;
+	height:52%;
+	left : 20%;
+	top: 5%;		
+	
+/*	position: absolute;
+	height: 100px;
+	left:10px;	
+	top:10px;
+	width: 450px;
+	padding: 20px 20px;
+	margin-left: 50px;
+*/
+	
+	}
+#signupTerms {
+	/*border: dashed;
+	border-color: #001111;*/
+	/*
+	position:absolute;
+	width:300px;
+	height:150px;
+	left : 170px;
+	top: 190px;
+	padding: 0px;
+	margin-top: 10px;
+	*/
+	position:absolute;
+	width:50%;
+	height:40%;
+	left : 26%;
+	top: 45%;
+	padding: 0px;
+	margin-top: 10%;
+	}
+	
+#signupNext {
+	/*border: dashed;
+	border-color: #001111;*/
+	
+	position:absolute;
+	/*width:100px;
+	height:40px;
+	left : 270px;
+	top: 370px;		
+	padding: 10px;
+	margin: 0px;*/
+
+	/*border:2px dashed gray;*/
+	width:7%;
+	height: 5%;
+	left:48%;
+	top:83%;
+	}
+
+	#StudentSignup{
+	
+	position:absolute;
+	width:10%;
+	height:10%;
+	left : 30%;
+	top: 95%;
+	padding: 0px;
+	margin-top: 10%;
+	}
+
+	#TeacherSignup{
+	
+	position:absolute;
+	width:10%;
+	height:10%;
+	left : 60%;
+	top: 95%;
+	padding: 0px;
+	margin-top: 10%;
+	}
+
+	#newaccountText{
+	position:absolute;
+	width:10%;
+	height: 5%;
+	left : 39%;
+	top:18%;
+	
+	}

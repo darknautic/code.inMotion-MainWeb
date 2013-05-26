@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>code.inMotion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="cursos HTML5, CSS3, JavaScript, Java, Mysql, postgresql, oracle, NoSQL, opensource school, cursos de codigo abierto ">
+    <meta name="author" content="s47id/Sajid Austria">
+
+    <!-- Le styles -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin"> -->
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons 
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="assets/ico/favicon.png">
+    -->
+  </head>
+
+  <body>
+
+
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <a class="brand" href="index.html">    
+                <!--<embed src="assets/img/rhino_header.svg" type="image/svg+xml" /> -->
+              <!--<object data="assets/img/rhino_header.svg" type="image/svg+xml"></object> -->
+                <span  class="code">Code.in</span><span  class="motion" >Motion</span>
+              </a>
+              
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class="active"><a href="index.html">Inicio</a></li>
+               <!-- <li><a href="about.html">Nosotros</a></li> -->
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nosotros <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="about.html">Quienes somos?</a></li>
+                          <li><a href="goal.html">Objetivo</a></li>                   
+                          <li><a href="index.html#estrategia">Estrategia para Mejorar la Imagen de México</a></li>
+                        </ul>
+                      </li>
+                <li><a id="contacto" href="contact.html">Contacto</a></li>
+                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cursos <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#trainings">Desarrollo Web</a></li>
+                    <li><a href="#java">Java</a></li>
+                    <li><a href="#db">Base de Datos</a></li>
+
+
+                    <!--<li><a href="#">Trabajo en Equipo - Versionamiento</a></li>-->
+                    <li class="divider"></li>
+                    <li class="nav-header">Otros Lenguajes</li>
+                    <li ><a  href="#">PHP <span class="disableFeature">(Próximo)</span></a></li>
+                    <li ><a  href="#">Python <span class="disableFeature">(Próximo)</span></a></li>                    
+                    <li ><a  href="#">Ruby <span class="disableFeature">(Próximo)</span></a></li>                    
+                  </ul>
+                </li>
+                
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        
+        <div class="item active">
+          <img src="assets/img/slide-03.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1><span class="code">Code.in</span><span class="motion">Motion</span></h1>
+              <p id="msg01" class="lead">
+                <span class="ubuntuFont">
+                Si aceleramos el aprendizaje tomara menos tiempo ver nuevas y grandiosas tecnologías.
+                </span>
+              </p>
+              <a class="btn btn-large btn-primary" href="signup.html">Registrarse</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/img/slide-02.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <!--<h1><span class="code">Code.in</span><span class="motion">Motion</span></h1>-->
+              <p class="lead" >
+                <span class="ubuntuFont">
+                No son cursos de regularización, son cursos que <span class="code">Code.in</span><span class="motion">Motion</span> a preparado para compartir su
+                conocimiento y experiencia adquiridos a través de los años, pensamos que los chicos deberían de
+                aprender estas tecnologías para elevar su potencial y al mismo tiempo el del país.
+                </span>  
+              </p>
+              <!--<a class="btn btn-large btn-primary" href="#">Learn more</a>-->
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/img/slide-01.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+             <!-- <h1><span class="code">Code.in</span><span class="motion">Motion</span></h1>-->
+              <p class="lead">
+                <span class="ubuntuFont">
+                Imagina que mientras vamos adquiriendo nuevos conocimientos año tras año , de escuela a escuela , de trabajo a
+                trabajo pudiéramos dar una retro alimentación a las mentes que construirán el futuro, porque hacer
+                que estas nuevas generaciones mal gasten su valioso tiempo recorriendo el camino ya recorrido en
+                cosas que nosotros ya entendemos, practicamos y podemos transmitir.
+              </span>
+              </p>
+             <!-- <a class="btn btn-large btn-primary" href="#">Browse gallery</a>-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <p id="estrategia"></p>
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+
+      <div class="row">
+        <div class="span4">
+          <img class="img-circle" src="assets/img/reading.png">
+          <h2>Leer</h2>
+          <p>La lista de beneficios de un hábito de lectura es interminable , aumenta tus niveles de conocimiento y educación al igual  nos acerca a nuevas ideas, nuevas formas de pensar, nuevas tecnologías. Es importante que  seas parte del grupo de personas  en un modelo de generación de conocimiento , lee , aplica, difunde tu nuevo conocimiento.  Un libro se escribió para ser leído y el conocimiento para ser compartido.</p>
+          <!--<p><a class="btn" href="#">View details &raquo;</a></p>-->
+        </div><!-- /.span4 -->
+        <div class="span4">
+          <img class="img-circle" src="assets/img/gnu-linux.png">
+          <h2>Software Libre</h2>
+          <p>Sistemas operativos, software de diseño, ofimática, multimedia, todos los paquetes , herramientas y utilidades que necesites para realizar tu proyecto están bajo alguna de las licencias de código abierto. El software libre te permite adquirir , modificar y redistribuir el código fuente sin ningún costo. El software libre es una  filosofía ,una cultura, un movimiento... Una simple idea para compartir.</p>
+          <!--<p><a class="btn" href="#">View details &raquo;</a></p>-->
+        </div><!-- /.span4 -->
+        <div class="span4">
+          <img class="img-circle" src="assets/img/community.png">          
+          <h2>Comunidad</h2>
+          <p>Trabajar con entusiasmo  sin esperar mas que la experiencia y  satisfacción de contribuir, es un desafió cultural, pero hay miles de increíbles proyectos que funcionan así por todo el mundo . Ser parte de una comunidad incrementa notablemente tus habilidades como programador, por tu trabajo al interpretar el código ya escrito y  por la  revisión a tus contribuciones por parte de programadores expertos.</p>
+          <!--<p><a class="btn" href="#">View details &raquo;</a></p>-->
+        </div><!-- /.span4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <p id="trainings"></p>
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <!--<img class="featurette-image pull-right" src="assets/img/browser-icon-chrome.png">-->
+
+        <img class="featurette-image pull-right" src="assets/img/HTML5_Logo.png">
+        
+        <h2 class="featurette-heading">Desarrollo Web. <span class="muted">front-end.</span></h2><span class="TrainingLabel">Curso-1</span> 
+        <p class="lead">Diseño y desarrollo de la interfaz con la cual el usuario interactua. Básicamente el front-end esta formado  por 3 capas HTML  el contenido , CSS la presentación y JavaScript funcionamiento. Al igual estaremos utilizando increíbles frameworks como jQuery, MooTools, ExtJS y otros.</p>
+      </div>
+
+      <hr class="featurette-divider">
+        <p id="java"></p>
+      <div class="featurette">
+        
+        <img class="featurette-image pull-left" src="assets/img/javaIcon.png">
+        <h2 class="featurette-heading">Java. <span class="muted">Un lenguaje simple, seguro, portátil...</span></h2><span class="TrainingLabel">Curso-2</span>
+        <p class="lead">Distribuido, OO, interpretado, robusto, arquitectura neutral, alto rendimiento, multiproceso y dinámico. Es un lenguaje muy poderoso, ampliamente usado, excelente documentación, libros, foros,  lo encontramos en una infinidad de proyectos,  donde quiera que vayas incluso en tu dispositivo móvil.</p>
+      </div>
+
+      <hr class="featurette-divider">
+      <p id="db"></p>
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="assets/img/Databaseicon.png">
+        <h2 class="featurette-heading">Base de Datos. <span class="muted"><br>back-end.</span></h2><span class="TrainingLabel">Curso-3</span>
+        <p class="lead">El propósito de una base de datos es almacenar información texto, imágenes, audio, videos, etc. Una base de datos  requiere de un diseño de almacenamiento , un modelo de datos , diseño de las relaciones entre los datos,  administración y mas.
+        Aprenderemos lenguaje SQL y la administración de  PostgreSQL,  MySQL, Oracle y una introducción a  NoSQL.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">arriba</a></p>
+        <p>&copy; 2013 Code.in<span class="motion">Motion</span>. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
+  </body>
+</html>

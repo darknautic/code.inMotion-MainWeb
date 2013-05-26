@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>code.inMotion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="cursos HTML5, CSS3, JavaScript, Java, Mysql, postgresql, oracle, NoSQL, opensource school, cursos de codigo abierto ,sajid">
+    <meta name="author" content="s47id/Sajid Austria">
+
+    
+    <!--<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-responsive.min.css"> -->
+    <link rel="stylesheet" href="assets/css/signupBox.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  </head>
+
+  <body>
+
+
+      <div id ="navigationbar"></div>
+
+
+
+
+   
+  
+    <div id="signupBox">
+          
+        <div id="signupBox2">
+          <form action="signupFull.html" method="get">
+
+                          <input  style="width:95%;" type="text" placeholder="*Código de verificación"><br>
+                          <input  style="width:95%;" type="text" placeholder="Teléfono">
+                          <input  style="width:95%;"type="text" placeholder="Dirección"><br>                          
+                          <input  style="width:95%;"type="password" placeholder="++++">
+                          <input  style="width:95%;"type="password" placeholder="++++"><br>
+                          <input  style="width:95%;"type="text" placeholder="++++">   
+
+                              <p>
+                              <label for="amount">Minimum number of bedrooms:</label>
+                              <!--<input type="text" id="amount" style="border: 0; color: #f6931f; font-weight: bold;" />-->
+                              </p>
+                              <span id="amount"></span>
+                              <div id="slider-range-max"></div>  
+                              <div id="StudentSignup"></div>
+                              <div id="TeacherSignup"></div>
+
+                          
+         </div>
+         
+       
+
+      </div>
+      <div id="signupNext" >
+                          <button  type="submit" class="btn">Siguiente</button>
+        </form>
+      
+      </div>
+
+
+
+
+
+
+
+    <!--  ================================================== -->
+    
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+   <!-- <script src="assets/js/bootstrap.min.js"></script> -->
+    <script src="assets/js/main.js"></script>
+    
+    
+    <script> 
+     $(function(){
+          $("#navigationbar").load("nav-bar.html");
+
+            $( "#slider-range-max" ).slider({
+            range: "max",
+            min: 1,
+            max: 2,
+            value: 1,
+            slide: function( event, ui ) {
+              if(ui.value==1){
+                    $( "#amount" ).text("Estudiante");
+                    $("#StudentSignup").css("box-shadow","4px 4px 10px #9E9EF0");
+                    $("#TeacherSignup").css("box-shadow","none");
+
+                  }
+              if(ui.value==2){
+                    $( "#amount" ).text("Instructor");
+                    $("#StudentSignup").css("box-shadow","none");
+                    $("#TeacherSignup").css("box-shadow","4px 4px 10px #9E9EF0");
+                    
+
+                  }            
+            }
+            });
+            //$( "#amount" ).text( $( "#slider-range-max" ).slider( "value" ) );
+            $( "#amount" ).text( "Estudiante" );
+            $("#StudentSignup").css("box-shadow","4px 4px 10px #9E9EF0");
+            $("#TeacherSignup").css("box-shadow","none");
+
+            
+    });
+
+
+
+    </script> 
+
+
+
+  </body>
+</html>
