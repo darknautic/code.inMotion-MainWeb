@@ -7,6 +7,7 @@ Main web for code.inMotion project
 Paso inicial configurar tu cuenta<br>
 **/</p>
 
+<pre>
  $ git config --global user.email "you@example.com"
  $ git config --global user.name  "Your Name"
 
@@ -49,4 +50,4 @@ $ git push origin master
  "git log"   te permite ver tus eventos
 **/
 
-
+</pre>
