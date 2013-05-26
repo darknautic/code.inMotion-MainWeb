@@ -3,11 +3,12 @@ code.inMotion-MainWeb
 
 Main web for code.inMotion project
 
-<p>/*
-Paso inicial configurar tu cuenta<br>
-**/</p>
-
 <pre>
+/*
+Paso inicial configurar tu cuenta<br>
+**/
+
+
  $ git config --global user.email "you@example.com"
  $ git config --global user.name  "Your Name"
 
