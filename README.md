@@ -4,8 +4,7 @@ code.inMotion-MainWeb
 Main web for code.inMotion project
 
 <pre>
-/*
-Paso inicial configurar tu cuenta<br>
+/* Paso inicial configurar tu cuenta ------------------------
 **/
 
 
@@ -13,8 +12,7 @@ Paso inicial configurar tu cuenta<br>
  $ git config --global user.name  "Your Name"
 
 
-/*
-Clonar el repositorio 
+/* Clonar el repositorio  ----------------------------------
 **/
 
 
@@ -24,8 +22,7 @@ Clonar el repositorio
   # On branch master
 	nothing to commit, working directory clean
 	
-/* 
-
+/* --------------------------------------------------------
 "git status" te dira en que branch estas trabajando y que archivos 
 ya modificaste o has agregado.
 
@@ -39,7 +36,7 @@ $ git add modified_file.txt
 $ git add new_file.txt
 
 
-/*   commit to master branch
+/*   commit to master branch  -----------------------------
 **/
 
 $ git commit -m "comentario"
@@ -48,7 +45,7 @@ $ git push origin master
 
 
 /*
- "git log"   te permite ver tus eventos
+ "git log"   te permite ver tus eventos    --------------
 **/
 
 </pre>
