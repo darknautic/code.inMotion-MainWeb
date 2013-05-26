@@ -3,9 +3,9 @@ code.inMotion-MainWeb
 
 Main web for code.inMotion project
 
-/*
-Paso inicial configurar tu cuenta
-**/
+<p>/*
+Paso inicial configurar tu cuenta<br>
+**/</p>
 
  $ git config --global user.email "you@example.com"
  $ git config --global user.name  "Your Name"
@@ -16,8 +16,8 @@ Clonar el repositorio
 **/
 
 
- $ git clone https://github.com/darknautic/TestGitHub.git
- $ cd TestGitHub/
+ $ git clone https://github.com/darknautic/code.inMotion-MainWeb.git
+ $ cd code.inMotion-MainWeb/
  $ git status
   # On branch master
 	nothing to commit, working directory clean
