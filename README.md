@@ -46,6 +46,9 @@ $ git push origin master
 
 /*
  "git log"   te permite ver tus eventos    --------------
+ 
+ 
+ "<b>git pull</b>" actualizar tu copia local antes de comenzar a modificar y subir tus actualizaciones.
 **/
 
 </pre>
